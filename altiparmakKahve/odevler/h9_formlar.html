@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları Örneği</title>
+    <link rel="stylesheet" href="h9_formlar.css">
+</head>
+<body>
+    <h1>Form Elemanları Örneği</h1>
+    <form action="/submit" method="post">
+        <!-- Text Input -->
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı girin" required>
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+        <br><br>
+
+        <!-- Password Input -->
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Number Input -->
+        <label for="age">Yaşınız:</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+        <br><br>
+
+        <!-- Date Input -->
+        <label for="dob">Doğum Tarihi:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Cinsiyet:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Erkek</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>Hobiler:</label>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Okuma</label>
+        <input type="checkbox" id="hobby2" name="hobbies" value="traveling">
+        <label for="hobby2">Seyahat</label>
+        <input type="checkbox" id="hobby3" name="hobbies" value="sports">
+        <label for="hobby3">Spor</label>
+        <br><br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Ülke:</label>
+        <select id="country" name="country">
+            <option value="turkey">Türkiye</option>
+            <option value="usa">Amerika</option>
+            <option value="germany">Almanya</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Mesajınızı buraya yazın"></textarea>
+        <br><br>
+
+        <!-- File Input -->
+        <label for="resume">CV Yükleyin:</label>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+
+        <!-- Color Input -->
+        <label for="favcolor">Favori Renk:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Gönder</button>
+
+        <!-- Reset Button -->
+        <button type="reset">Sıfırla</button>
+    </form>
+</body>
+</html>

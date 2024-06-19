@@ -1,0 +1,35 @@
+#kasa{
+    margin: 0 auto;
+    width: 75vw;
+    background-color: antiquewhite;
+}
+
+#banner{
+    height: 120px;
+    background-color: aqua;
+}
+
+#orta{
+    margin-top: 10px;
+}
+
+#linkler{
+    float: left;
+    width: 15vw;
+    margin-right: 1.5vw;
+    background-color: blueviolet;
+}
+
+#icerik{
+    float: left;
+    background-color: coral;
+    min-height: 300px;
+    width: ;
+}
+
+#altbolum{
+    
+}
+
+
+@media screen and (max-width: 600px);

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutular</title>
+
+    <style>
+        #container {
+            width: 1500px;
+            height: 1200px;
+            background-color:rgb(178, 198, 215) ; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #header {
+            width:auto;
+            height: 200px;
+            background-color:rgb(109, 141, 169) ;
+            margin-bottom: 1%;
+            
+        }
+        #logo {
+            width: 50%;
+            height: 50%;
+            float: left;
+        }
+        #baslik {
+            width: 50%;
+            height: 50%;
+            float: right;                 
+        }
+        #govde {
+            width: 25%;
+            height: 500px;
+            background-color: rgb(81, 123, 126); 
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #bodyy {
+            width: 74%;
+            height: 500px;
+            background-color:rgb(132, 179, 180);
+            float: right;
+        }
+        h6 {
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin: 1%;
+        }
+
+        #govde ul {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+        }
+        #govde li {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        #govde li a {
+            display: block;
+            padding: 10px 20px;
+            background-color: #6d8da9;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        #govde li a:hover {
+            background-color: #547a93;
+        }
+        #govde li a.active {
+            background-color: #455f76;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="fotograflar/golmanzara.jpg" width="300" />
+            </div>
+            <div id="baslik">
+                <h1>Göl Manzarası</h1>
+                <h3>Kuzeylerden bir ada..</h3>
+            </div>
+        </div>
+        
+        <div id="govde">
+            <ul>
+                <li><a href="" class="active">Ana sayfa</a></li>
+                <li><a href="">Hakkımızda</a></li>
+                <li><a href="">Hizmetler</a></li>
+                <li><a href="">Ürünler</a></li>
+                <li><a href="">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div id="bodyy">
+            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem a accusamus iste natus vel dicta dignissimos adipisci, rerum voluptatum! Suscipit incidunt, consequatur libero placeat laudantium ducimus exercitationem tempore corrupti dignissimos.</h6>
+            <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, accusantium provident nobis pariatur quas quae quos. Ipsum molestias ea assumenda voluptatibus ratione, quisquam error sed libero ex, consectetur saepe? Officia Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit voluptate molestias a perspiciatis praesentium rem. Asperiores nemo est ducimus provident debitis, perspiciatis laborum quod tempora officiis minus atque nesciunt sint Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illo molestias amet error nobis in et mollitia sapiente! Vel, quam ratione voluptates incidunt nemo tenetur delectus laudantium numquam officia consequuntur?</h6>
+        </div>         
+    </div>
+</body>
+</html>
